@@ -13,7 +13,7 @@ function P2() {
         return (
           <>
           <div className="border-2 text-2xl">
-            {isOpen && <C2 CtoP2={Str} name="Anti" id="1" question2="What are you interested to know"/>}
+            {isOpen && <C2 CtoP2={Str} question2="What are you interested to know"/>}
             <button className="bg-green-400 border-2" onClick={Toggle}>Click to view the Second question</button>
           </div>
          

@@ -13,7 +13,7 @@ function P3() {
         return (
           <>
           <div className="border-2 text-2xl">
-            {isOpen && <C3 CtoP3={Str} name="Anti" id="1" question3="What media do you prefer to contact us?"/>}
+            {isOpen && <C3 CtoP3={Str}  question3="What media do you prefer to contact us?"/>}
             <button className="bg-green-400 border-2" onClick={Toggle}>Click to view the Third question</button>
           </div>
          
