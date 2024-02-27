@@ -6,7 +6,6 @@ import P3 from './P3.jsx'
 
 
 import './index.css'
-console.log("main")
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <P1/>

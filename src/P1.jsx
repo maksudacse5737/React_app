@@ -1,15 +1,15 @@
 import C1 from './C1.jsx'
 import { useState } from 'react'
 
-function P1() {
+function P1(p) {
         const [isOpen, setIsOpen] = useState(false);
-        
         function Toggle() {
           setIsOpen((isOpen) => !isOpen);
         }
         function Str(str){
           return <p className="p-3 text-red text-2xl border-2"><i>I am parent(Received from Child by function param of Parent component rendered by props of Child component) <br/><h1>{str}</h1></i></p>
         }
+        console.log(p.p1)
         return (
           <>
           <div className="border-2 text-2xl">
